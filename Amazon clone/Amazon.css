@@ -1,0 +1,248 @@
+*{
+    margin:0%;
+    font-family: Arial;
+    border:border-box;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.navbar{
+    background-color: black;
+    height: 70px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-size: cover;
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-600nw-2292992631.jpg");
+    width:100%;
+    height: 50px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+}
+.add-first{
+    font-size:0.85rem ;
+    color:#cccccc;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1.25rem;
+    margin-left: 3px;
+}
+.navsearch-bar{
+    height: 40px;
+    display:flex;
+}
+.navsearch{
+    width:700px;
+    font-size: 1rem;
+}
+.All-icon{
+    width:50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-icon{
+    background-color:lightsalmon;
+    color: black;
+    height:40px;
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.search-icon:hover{
+    background-color: rgb(255, 196, 0);
+}
+.navlanguage-section{
+    width:60px;
+    height:35px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.lang-flag{
+    width:26px;
+    height:20px;
+}
+.lang{
+    width:55px;
+    height:18px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding-right: 10px;
+}
+.span{
+    font-size:0.7rem;
+}
+.nav-signin{
+    font-size: 0.85rem;
+}
+.nav-second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.nav-line1{
+    font-size: 0.75rem;
+}
+.nav-line2{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navsearch-bar:hover{
+    border:2px solid orange;
+}
+.nav-cart{
+    display:flex;
+    align-items: baseline;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.panel{
+    height:40px;
+    background-color: #232f3e;
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops{
+    margin-right: 60%;
+}
+.panel-ops p{
+    display:inline;
+    margin:12px;
+}
+.hero-section{
+    background-image: url(https://m.media-amazon.com/images/I/71VcGrxQRBL._SX3000_.jpg);
+    background-size: cover;
+    height:350px;
+    display:flex;
+    align-items: flex-end; 
+
+}
+.hero-msg{
+    height:40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:98%;
+    margin-bottom: 25px;
+    font-size: 0.85rem;
+}
+.hero-msg a{
+    color:#007185;
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    width:23%;
+    height:400px;
+    background-color:white;
+    padding:20px,0px,15px;
+    margin-top: 15px;
+}
+.box-image{
+    width:300px;
+    height:300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 14px;
+}
+.box-content p{
+    font-weight: 550;
+    color:#007185;
+}
+.footer-msg{
+    background-color:#37475a;
+    color:white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-msg2{
+    background-color:#222f3d;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 20px;
+}
+.footer-msg3{
+    background-color: black;
+    height: 90px;
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo2{
+    background-size: contain;
+    background-image: url("https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-600nw-2292992631.jpg");
+    width:90px;
+    height: 75px;
+}
+
+.footer-msg4{
+    background-color: black;
+    height: 70px;
+    color: white;
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.msg4-line1{
+    font-size: 0.75rem;
+    text-align: center;
+}
+.msg4-line2{
+    font-size: 0.75rem;
+    text-align: center;
+}
+#mode{
+    cursor: pointer;
+    
+}

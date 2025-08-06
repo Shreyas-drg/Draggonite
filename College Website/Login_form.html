@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="Login_form.css">
+</head>
+<body>
+        <button class="Toggle">Theme</button>
+    <form action="">
+        <div class="Logo">
+            <img src="user.png">
+            <h1 class="Sign">Sign In</h1>
+            <a href="Login2.html" target="_blank">Already have an Account?</a>
+        </div>
+        <div>
+            <label for="Name">Name</label>
+            <input type="text" id="name" name="Myname" placeholder="Enter your name">
+        </div>
+        <br>
+        <div>
+            <label for="age">Age</label>
+            <input id="age" type="number" placeholder="Enter your Age">
+        </div>
+        <br>
+        <div>
+            <label for="email_id">Email Id</label>
+            <input type="text" name="email" id="email_id" placeholder="Enter your Email id">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your Password">
+        </div>
+        <br>
+        <div>
+            <label for="Ph_no.">Phone Number</label>
+            <input type="number" name="Ph_no" id="Ph_no" placeholder="Enter your Phone number">
+        </div>
+        <br>
+        <div>
+            <label for="DOB">Enter your Date of Birth</label>
+            <input type="date" id="DOB">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="Selection" disabled selected>Select your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="TransGender">TransGender</option>
+                <option value="Customised">Customised</option>
+            </select>
+        </div> 
+        <br>
+        <div>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" placeholder="Enter your preffered location"></textarea>
+        </div>
+        <button type="submit" class="Submit">Done</button>
+    </form>
+    <script src="Login_form.js"></script>
+</body>
+</html>

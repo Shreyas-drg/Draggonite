@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+}
+body{
+    background-color: #f5f1f1;
+}
+form{
+    max-width: 600px;
+    background-color: #f7f9fc;
+    margin: 20px auto;
+    padding: 28px;
+    box-shadow: 0px 35px 35px 25px  rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+input,textarea,select{
+    width: 100%;
+    border-radius: 5px;
+    height: 33px;
+    border:#a5b9d9b5;
+}
+input:focus, select:focus, textarea:focus{
+    border-color: #025cbd;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+textarea{
+    height: 70px;
+}
+.Submit{
+    margin-top: 20px;
+    width: 100%;
+    height: 35px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(45deg, #ff6b6b, #feca57, #48dbfb, #1dd1a1);
+    transition: transform 0.2s;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: black;
+    color: white;
+}
+.green{
+    background-color: rgb(25, 231, 63);
+    color:black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.Toggle{
+    position: sticky;
+    top: 0%;
+    width: 170px;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Toggle:hover{
+    background-color: #d4d3d3;
+}
+.Submit:hover{
+    transform: scale(1.05);
+}
+/*
+.div1{
+    display: flex;
+    gap: 577px;
+    align-items: center;
+}
+*/
+img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.Logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="Logo">
+            <img src="user.png">
+            <h1>Log In</h1>
+        </div>
+        <div>
+            <label for="email_id">Email Id</label>
+            <input type="text" name="email" id="email_id" placeholder="Enter your Email id or Phone Number">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Password</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your Password">
+        </div>
+        <button class="Submit">Done</button>
+    </form>
+</body>
+</html>
